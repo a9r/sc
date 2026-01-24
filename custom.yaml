@@ -28,7 +28,7 @@ proxy-groups:
   - {name: 美国节点, type: url-test, tolerance: 100, include-all: true, filter: "(?i)(🇺🇸|美|us|unitedstates|united states)"}
 
 rules:
-  - GEOSITE,private,🔒 私有网络
+  - GEOSITE,private,私有网络
   - GEOSITE,ads,广告域名
   - GEOSITE,trackerslist,Trackerslist
   - GEOSITE,microsoft-cn,微软服务
