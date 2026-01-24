@@ -1,6 +1,6 @@
 #DustinWin-geosite全分组规则+去广告
 proxy-groups:
-  - {name: 节点选择, type: select, proxies: [手动选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, {providers_tags}]}
+  - {name: 节点选择, type: select, proxies: [香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, {providers_tags}]}
   - {name: 网络测试, type: select, proxies: [全球直连, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, {providers_tags}]}
   - {name: AI 平台, type: select, proxies: [节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点]}
   - {name: Trackerslist, type: select, proxies: [全球直连, 节点选择]}
